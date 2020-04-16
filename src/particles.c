@@ -11,10 +11,11 @@
 
 void init_particles(sfUint8 *buffer)
 {
-    (void)buffer;
+    // Here is the function were you will initialize the frame buffer.
+    // You don't need to allocate any memory.
 }
 
 void update_particles(sfUint8 *buffer)
 {
-    (void)buffer;
+    // Here is the function were you will update the frame buffer.
 }
