@@ -28,6 +28,7 @@ void draw(sfRenderWindow *win, sfUint8 *buffer)
     sfSprite_setPosition(sprite, (sfVector2f){0, 0});
     sfRenderWindow_clear(win, sfBlack);
     sfRenderWindow_drawSprite(win, sprite, NULL);
+    sfRenderWindow_display(win);
     sfTexture_destroy(texture);
     sfSprite_destroy(sprite);
 }

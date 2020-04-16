@@ -11,12 +11,7 @@
 
 void init_particles(sfUint8 *buffer)
 {
-    for (size_t i = 0; i < WINDOW_WIDTH * WINDOW_WIDTH * 4; i += 4) {
-        buffer[i] = 255;
-        buffer[i + 1] = 100;
-        buffer[i + 2] = 100;
-        buffer[i + 3] = 255;
-    }
+    (void)buffer;
 }
 
 void update_particles(sfUint8 *buffer)
