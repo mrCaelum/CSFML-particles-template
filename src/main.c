@@ -33,8 +33,7 @@ int main(void)
 {
     sfRenderWindow *win = init_window();
     sfEvent evt;
-    // sfUint8 buffer[/* You need to compute the buffer size here with WINDOW_WIDTH and WINDOW_HEIGHT */] = { 0 };
-    sfUint8 buffer[WINDOW_WIDTH * WINDOW_HEIGHT * 4] = { 0 };
+    sfUint8 buffer[/* You need to compute the buffer size here with WINDOW_WIDTH and WINDOW_HEIGHT */] = { 0 };
 
     if (!win) {
         fprintf(stderr, "ERROR: Unable to create window\n");
